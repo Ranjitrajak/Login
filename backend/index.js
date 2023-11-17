@@ -7,6 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
+// data base connection
 mongoose.connect("mongodb+srv://Ranjitmongo:ranjitmongo@cluster0.ul51s.mongodb.net/loginDb", {
     useNewUrlParser: true,
     useUnifiedTopology: true
